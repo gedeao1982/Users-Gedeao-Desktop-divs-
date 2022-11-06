@@ -1,0 +1,206 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2 rem;
+    font-family: Arial;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+
+
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   flex-wrap: wrap;
+   background: linear-gradient(90deg, #2d616d 0%, #3a47d5 100%);
+   
+
+   
+   
+
+}
+.menu {
+    color: azure;
+    display: flex;
+}
+.menu li {
+    color: azure;
+    margin-left: 10px;
+
+}
+.menu li a {
+    color: azure;
+    display: block;
+    padding: 10px;
+    
+
+}
+
+
+/* CSS Flexbox 1 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+ Grid 1*/
+
+ 
+
+.grid1 {
+    background: white;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    padding: 5px;
+    
+
+}
+
+
+
+
+.grid2 {
+
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    padding: 20px;
+    
+
+}
+
+.grid2 >div:nth-child(1){
+    display: block;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px;
+  
+
+
+}
+
+.grid2 >div:nth-child(2){
+    
+   
+    display: block;
+    width: 420px;
+    height: 400px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.grid3 {
+    
+    background-color: azure;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    padding: 5px;
+    
+
+}
+
+
+#divexterna {
+    border-radius: 10px;
+    background-color: azure;
+}
+#divinterna{
+    color: rgb(7, 35, 59);
+    padding: 50px;
+    
+}
+#text1 {
+    color: white;
+    
+
+    
+}
+
+
+#text3 {
+    color: rgb(56, 49, 49);
+    background-color: aliceblue;
+    width: 88%;
+    border-radius: 0px 0px 10px 10px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 30%);
+
+    
+}
+#text4 {
+    color: rgb(56, 49, 49);
+    background-color: aliceblue;
+    width: 88%;
+    border-radius: 0px 0px 10px 10px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 30%);
+
+    
+}
+#text5 {
+    color: rgb(133, 15, 15);
+    background-color: azure;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 30%);
+}
+#seila {
+    background-color: azure;
+    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
+    padding:25px;
+    text-align: left;
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 30%);
+}
+#aqui {
+    color: rgb(99, 91, 91);
+    padding: 50px;
+}
+.sign-einstein {
+    background-color: #0f70b7;
+    color: #FFF;
+    text-align: center;
+    font-size: 21px;
+    padding: 15px;
+    margin-top: 100.91px;
+    font-family: 'Montserrat', sans-serif;
+}
