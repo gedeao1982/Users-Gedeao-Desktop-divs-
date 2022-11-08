@@ -4,13 +4,16 @@ body, ul, li, p {
     list-style: none;
     font-size: 1.2 rem;
     font-family: Arial;
-    
 
-}
+
+}   
+
+
+
 
 a {
     text-decoration: none;
-    color: blue;
+    color: rgb(46, 46, 206);
     
     
 }
@@ -28,6 +31,7 @@ img {
     border-radius: 10px;
 
 }
+
 .header-wrapper {
    display: flex;
    justify-content: space-between;
@@ -37,15 +41,18 @@ img {
    background: linear-gradient(90deg, #3bb0b4 0%, #bb8a9d 100%);
  
 }
+
 .menu {
     color: azure;
     display: flex;
 }
+
 .menu li {
     color: azure;
     margin-left: 10px;
 
 }
+
 .menu li a {
     color: azure;
     display: block;
