@@ -1,4 +1,4 @@
-body, ul, li, p {
+body, ul, li {
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -7,13 +7,22 @@ body, ul, li, p {
 
 
 }   
-
+.ggg{
+    color: white;
+    /*Cor das letras dentro da div interna 3*/
+}
+.lll {
+    color: white;
+}
 
 
 
 a {
+
     text-decoration: none;
-    color: rgb(46, 46, 206);
+    color: rgb(11, 44, 153);
+    
+    
     
     
 }
@@ -38,7 +47,7 @@ img {
    align-items: center;
    padding: 20px;
    flex-wrap: wrap;
-   background: linear-gradient(90deg, #3bb0b4 0%, #bb8a9d 100%);
+   background: linear-gradient(90deg, #0f2a66 0%, #bb8a9d 100%);
  
 }
 
@@ -138,68 +147,93 @@ img {
 
 #divexterna {
     border-radius: 10px;
-    background-color: azure;
+    background-color:white;
+    box-shadow: 1px 1px 2px 0px rgb(26, 99, 26);
 }
+
 #divinterna{
-    color: rgb(7, 35, 59);
-    padding: 50px;
+    color: rgb(52, 52, 83);
+    padding: 0px;
     
 }
-#text1 {
+.hh{
+    color: rgb(45, 158, 88);
+}
+.ll {
     color: white;
+    background-color: #2e8b57;
+    border-radius: 4px;
     
+    
+}
+.tt{
+    color: #2e8b57;
+}
+.bb {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 
-#text3 {
-    color: rgb(56, 49, 49);
+
+#text2 {
+    color: rgb(39, 30, 30);
     background-color: aliceblue;
     width: 88%;
     border-radius: 0px 0px 10px 10px;
     padding: 25px;
     text-align: left;
-    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 30%);
+    box-shadow: 0px 2px 2px 1px rgb(56, 50, 50);
+    
+    /*Texto 2 dentro da div 1*/
 
     
 }
-#text4 {
-    color: rgb(247, 43, 43);
-    background-color: aliceblue;
-    width: 88%;
-    border-radius: 0px 0px 10px 10px;
-    text-align: left;
-    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 30%);
 
+.text3 {
     
-}
-.titulo {
-    
+    background-color: #2e8b57;
+    box-shadow: 0px 0px 5px 0px ;
+    /*div externa tex3*/
 
-    color: #182de7;
 }
-#text5 {
-    background-color: azure;
+.text4 {
+    background-color: #2e8b57;
+    box-shadow: 0px 0px 5px 0px;
+
+}
+
+
+/*#text5 {
+    background-color: rgb(28, 90, 90);
     border-radius: 10px;
-    padding: 40px;
-    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 30%);
-}
+    padding: 30px;
+    box-shadow: 0px 3px 6px 10px rgb(19, 26, 19);
+    /*div interna ultimo card
+}*/
 #banner {
-    background-color: azure;
-    border-radius: 0px 0px 10px 10px;
+    background-color: #4682b4;
+    border-radius: 0px 100px 10px 100px;
     padding:25px;
-    text-align: left;
+    /* Primeira div parte externa*/
   
 }
 #hero {
-    color: rgb(17, 17, 112);
-    margin: auto;
+    
+    
+    columns: center;
+    color: rgb(223, 226, 231);
+    /*Texto 1*/
+    
     
 }
 .sign-einstein {
-    background-color: #0f70b7;
-    color: rgb(245, 240, 240);
+   background-color: #4682B4;
+    color: white;
     text-align: center;
-    font-size: 21px;
+    font-size: 15px;
     padding: 15px;
     margin-top: 100.91px;
     font-family: 'Montserrat', sans-serif;
