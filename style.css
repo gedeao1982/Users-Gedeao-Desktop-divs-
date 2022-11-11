@@ -1,38 +1,23 @@
 body, ul, li {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
-    font-size: 1.2 rem;
+    font-size: border-box;
     font-family: Arial;
 
 
+}
+.logo {
+    width: 220px;
+    padding: 15px;
 }   
-.ggg{
-    color: white;
-    /*Cor das letras dentro da div interna 3*/
-}
-.lll {
-    color: white;
-}
-
-
 
 a {
-
+    color: blue;
     text-decoration: none;
-    color: rgb(11, 44, 153);
-    
-    
-    
+    /*color: rgb(11, 44, 153);*/
     
 }
-
-h1 {
-    text-align: center;
-    margin-bottom: 100px;
-    
-}
-
 
 img {
     max-width: 100%;
@@ -41,15 +26,17 @@ img {
 
 }
 
-.header-wrapper {
+.header {
+   height: 80px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 20px;
+   padding: 5px;
    flex-wrap: wrap;
-   background: linear-gradient(90deg, #0f2a66 0%, #bb8a9d 100%);
+   background: rgb(186, 8, 80);
  
 }
+
 
 .menu {
     color: azure;
@@ -67,7 +54,6 @@ img {
     display: block;
     padding: 10px;
     
-
 }
 
 
@@ -87,16 +73,59 @@ img {
  
 
 .grid1 {
-    background: white;
+    
+    background: rgb(97, 76, 218);
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
     padding: 5px;
+    background-image: radial-gradient(circle at 99.41% 50%, #a1feff 0, #6fe1ff 25%, #2e8297 50%, #5596ac 75%, #11242c 100%);
+
+}
+#banner {
+
+    
+    border-radius: 0px 100px 10px 100px;
+    padding:25px;
+  
+    /* Primeira div parte externa*/
+  
+}
+.titulo {
+    justify-content: center;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    
     
 
 }
+#hero {
+    
+    height: 300px;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin: 50px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+      /*Texto 1*/
+}
+.link {
+background-color: white;
+padding: 3px;
 
+border-radius: 10px;
+color: black
+}
+
+
+
+    
+h1 {
+    background-color: rgb(122, 159, 228);
+    border-radius: 20px;
+}
 
 
 
@@ -145,27 +174,30 @@ img {
 }
 
 
-#divexterna {
+#divexterna6 {
     border-radius: 10px;
     background-color:white;
     box-shadow: 1px 1px 2px 0px rgb(26, 99, 26);
 }
 
-#divinterna{
+#divinterna6 {
     color: rgb(52, 52, 83);
     padding: 0px;
     
 }
-.hh{
-    color: rgb(45, 158, 88);
+.tit2 {
+    color:black;
 }
-.ll {
+.tit1 {
     color: white;
-    background-color: #2e8b57;
     border-radius: 4px;
     
     
 }
+.tit4 {
+    color: white;
+}
+
 .tt{
     color: #2e8b57;
 }
@@ -178,19 +210,12 @@ img {
 
 
 
-#text2 {
-    color: rgb(39, 30, 30);
-    background-color: aliceblue;
-    width: 88%;
-    border-radius: 0px 0px 10px 10px;
-    padding: 25px;
-    text-align: left;
-    box-shadow: 0px 2px 2px 1px rgb(56, 50, 50);
-    
-    /*Texto 2 dentro da div 1*/
+
+
+   
 
     
-}
+
 
 .text3 {
     
@@ -199,11 +224,17 @@ img {
     /*div externa tex3*/
 
 }
+.texdiv3{
+    color: white;
+    /*Cor das letras dentro da div interna 3*/
+}
+
 .text4 {
     background-color: #2e8b57;
     box-shadow: 0px 0px 5px 0px;
 
 }
+
 
 
 /*#text5 {
@@ -213,22 +244,7 @@ img {
     box-shadow: 0px 3px 6px 10px rgb(19, 26, 19);
     /*div interna ultimo card
 }*/
-#banner {
-    background-color: #4682b4;
-    border-radius: 0px 100px 10px 100px;
-    padding:25px;
-    /* Primeira div parte externa*/
-  
-}
-#hero {
-    
-    
-    columns: center;
-    color: rgb(223, 226, 231);
-    /*Texto 1*/
-    
-    
-}
+
 .sign-einstein {
    background-color: #4682B4;
     color: white;
