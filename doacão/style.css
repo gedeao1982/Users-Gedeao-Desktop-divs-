@@ -1,0 +1,38 @@
+ body {
+    margin: 10px;
+    padding: 0;
+    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
+}
+
+form {
+
+    display: grid;
+    max-width: 600px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 16px;
+    gap: 16px;
+}
+.kk {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form div:nth-child(3) {
+    grid-column: 1/-1;
+}
+.tt{
+    margin-bottom: 16px;
+    
+}
+input, textarea {
+    padding: 10px 20px;
+
+}
+button {
+    padding: 15px 30px;
+    border: 1px;
+    border-radius:  6px;
+    font-size: 18px;
+    justify-content: flex-start;
+}

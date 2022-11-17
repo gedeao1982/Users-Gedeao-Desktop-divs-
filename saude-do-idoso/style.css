@@ -1,0 +1,19 @@
+body {
+    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
+    margin: 20px;  
+}
+
+#container {
+    display: inline-block;
+    position: absolute;
+
+}
+h1 {
+    color: rgb(11, 12, 12);
+}
+p {
+    font-size: 20px;
+}
+.container-a {
+    height: 380px;
+}

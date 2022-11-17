@@ -1,0 +1,38 @@
+body {
+    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
+    margin: 10px;  
+}
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 20px;
+    align-items: center;
+
+}
+#container-a {
+   
+    width: 400px;
+    height: 400px;
+}
+#container-b {
+   
+    width: 400px;
+    height: 400px;
+}
+#container-c {
+   
+    width: 400px;
+    height: 400px;
+}
+#container-d {
+   
+    width: 400px;
+    height: 400px;
+}
+
+
+img { 
+width: 400px;
+height: 400px;
+}

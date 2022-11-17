@@ -1,0 +1,19 @@
+body {
+    margin: 20px;
+    padding: 0;
+  
+    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
+}
+h1{
+    color: rgb(9, 34, 1);
+}
+h2{
+    color: rgb(7, 32, 7);
+}
+img {
+    width: 800px;
+    height: 400px;
+}
+p{
+    font-size: 25px;
+}

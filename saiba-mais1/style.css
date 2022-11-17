@@ -1,0 +1,39 @@
+body {
+    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
+    margin: 20px; 
+}
+div {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    position: relative;
+    left: 10%;
+ 
+    
+    
+}
+#container-a {
+    width: 300px;
+    height:380px;
+   
+
+
+}
+#container-b {
+    width: 300px;
+    height:300px;
+    
+
+
+
+
+}
+img {
+    width: 650px;
+    height:450px;
+    border-radius: 10px;
+}
+p {
+    color: rgb(6, 75, 15);
+    font-size: 20px;
+}

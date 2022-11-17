@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(219, 219, 231);
+    margin: 20;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+h1 {
+    color: brown;
+}
+h2 {
+    color: rgb(19, 3, 34);
+}
+.container {
+    align-items: center;
+    max-width: 800px;
+
+      
+}

@@ -1,0 +1,32 @@
+body{
+    
+    margin: 20px;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
+    
+}
+h1 {
+    color: brown;
+}
+h2 {
+    font-size: 25px;
+    color: rgb(19, 3, 34);
+}
+.container {
+    align-items: center;
+    max-width: 800px;
+
+      
+}
+h4 {
+    font-size: 25px;
+}
+li {
+    font-size: 24px;
+}
+p {
+    font-size: 20px;
+}
