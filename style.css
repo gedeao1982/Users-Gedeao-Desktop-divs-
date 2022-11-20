@@ -1,34 +1,41 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');*/
   
-body, ul, li {
+body {
+    width: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: border-box;
     font-family: 'amatic sc', sans-serif;
+    flex-wrap: wrap;
+    
 }
+
 .logo {
     display: flex;
     align-items: flex-start;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
+    width: 150px;
+    height: 80px;
+    margin-left: 20px;
+    
 } 
 a:hover {
-    text-decoration: none;
+     text-decoration: none;
      background-color:rgb(52, 180, 174);
      border-radius: 4px;
 }
 
-.imagens {
-    max-width: 100%;
-    display: block;
-    border-radius: 10px;
-}
+.imagem-1 {
     
-h1 {
-    color: black;
-    border-radius: 20px;
+    width: 690px;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: end;
+    padding: 10px;
+    margin: 10px;
+    
+    
 }
 .header-wrapper {
    height: 75px;
@@ -40,144 +47,188 @@ h1 {
    background:  rgb(23, 41, 117); 
 }
 .grid1 {
-    background: rgb(97, 76, 218);
-    margin-bottom: 10px;
-    display: grid;
+
+    display: flex;
+    height: 350px;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
-    padding: 5px;
+    padding: 4px;
     background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
 }
 .titulo {
-    border-radius: 10px;
-    color: black;
+    
+    width: 510px;
+    color: rgb(36, 33, 33);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+
+    
 }
-.tit1 {
-        color: black;
+.paragrafo-1 {
+    color: rgb(24, 26, 24);
+    font-size: 22px;
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 16px;
+    
+    
 }
 
+
 #hero {
-    color: b;
-    font-size: 22px;
-    height: 300px;
+    color: white;
+    width: 580px;
+    height: 270px;
     justify-content: center;
-    align-items: flex-end;
-    text-align: center;
-    margin: 50px;
-    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+  
     
       /*Texto 1*/
 }
 #container {
-    justify-content: space-between;
+    background-color: rgb(23, 41, 117);
     width: 100%;
-    height: 15px;
-    padding: 0px;
-    margin-top: -10px;
-}
+    height: 40px;
 
-.sub-titulos {
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgb(39, 18, 66) 0%, rgb(75, 21, 12) 93%);
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+}
+.subtitulos {
+    list-style: none;
+    padding: 10px;
     flex-wrap: wrap;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
+    justify-content: space-around;
     margin: auto;
 }
-.container0 {
-    background: rgb(23, 41, 117);
-    height: 45px;
-}
-.sub-titulos li {
+
+.subtitulos li a{
     display: flex;
-    color: white;
-    margin-left: 150px;
-}
-.sub-titulos li a {
-    display: flex;
-    color: white;
-    display: block;
-}
-.txt2 {
-    color:rgb(20, 18, 18);
-    font-size: 18px;
-   
-    
+    color: rgb(247, 238, 238);
     
 }
+
 .grid2 {
-    background-color: azure;
+    padding: 30px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
+    
+    
+    
+}
+.imagem-a{
+    background-color: rgb(46, 105, 81);
+    height: 500px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    padding: 40px;
+
+}
+.imagemfisio {
+    width: 500px;
+    height: 287px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    padding: 10px;
+    
+    
+
+}
+.video{
+    width: 500px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    padding: 3px;
+
+    
+    
+
+}
+.titulo1{
+
+    font-size: 25px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    color:rgb(15, 15, 15);
+    
+
+}
+.paragrafo1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color:black;
+    width: 450px;
+    margin-left: 60px;
+    padding: 5px;
+}
+.titulo2 {
+    font-size: 25px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-left: 110px;
+}
+.paragrafo2 {
+    font-size: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin-left: 110px;
+    padding: 1px;
+    color: black;
+
+}
+
+.grid3 {
+    height: 310px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
     padding: 20px;
+    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #9de7fc 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
 }
-.grid2 >div:nth-child(1){
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 100px;
-    /*1 div externa grid 2 */
+.foto4 {
+    width: 560px;
+    height: 300px;
+    margin-left: 20px;
 }
-.txtdiv3 {
-    color: rgb(30, 13, 182);
-    /*Cor das letras dentro da div interna 3*/
-}
-.txtdiv4 {
-    color: rgb(50, 13, 182)
-    /*Cor das letras dentro da div interna 3*/
-}
-.grid2 >div:nth-child(2){
-    display: block;
-    height: 400px;
-    align-items: center;
-    margin: 0 auto;
-    padding: 100px;
-}
-.text3 {
-    background-color: #aecad4;
-    box-shadow: 0px 0px 5px 0px;
-    /*div externa tex3*/
-}
-.txt4 {
-    background-color: #aecad4;
-    box-shadow: 0px 0px 5px 0px;
-    /*texto Imagem Usg*/
-}
-.grid3 {
-    height: 385px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
-    padding: 5px;
-}
-#divexterna6 {
-    border-radius: 0px;
-}
+
 #divinterna6 {
-    padding: 50px;
+    padding: 20px;
 }
 .txt5 {
+
+    font-size: 25px;
+    color: black;
     text-align: center;
+    margin-left: -120px;
 }
 .txt6 {
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin-top: 10px;
+    
+    width: 500px;
     font-size: 20px;
+    color: black;
+    font-size: 20px;
+    margin-left: 90px;
 }
-#text5 {
-    background-color: rgb(99, 101, 124);
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0px 3px 6px 10px rgb(19, 26, 19);
-    /*div interna ultimo card*/
-}
+
 
 @media (max-width:768px) {
     .grid1,.grid2,.grid3 {
@@ -202,32 +253,58 @@ h1 {
 }
 .grid4 {
     width: 100%;
-    height: 380px;
+    height: 520px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-image: radial-gradient(circle at 99.41% 50%, #818efc 0, #49b1ce 25%, #b3cbd4 50%, #73b6cc 75%, #b3aedb 100%);
+    background-image: radial-gradient(circle at 99.41% 50%, #b2b3bd 0, #9de7fc 25%, #b3cbd4 50%, #a8bac0 75%, #b3aedb 100%);
 }
 .contatos {
-    width: 635px;
-    height: 350px;
-    margin: 5px;
-    padding: 10px;
+  
+    font-size: 18px;
+    width: 650px;
+    height: 50px;
+
+}
+.faleconosco {
+    color:black;
+    margin-left: 30px;
+}
+.telefones {
+   
+    width: 370px;
+    height: 130px;
+    font-size: 25px;
 }
 .redes {
-    width: 600px;
-    height: 300px;
-    flex-direction: column;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: auto;
-    padding: 10px;
-    font-size: 30px;
-    flex-direction: row;
+    font-size: 50px;
 
+}
+.grid6 {
+    background-image: radial-gradient(circle at 99.41% 50%, #b2b3bd 0, #9de7fc 25%, #b3cbd4 50%, #a8bac0 75%, #b3aedb 100%);
+}
+.redesociais {
+    width: 60px;
+}
+.div1 {
+    display: inline-block;
+    width: 700px;
+    height: 300px;
+    float: left;
+    margin-left: 25px;
+}
+.div1 a{
+   
+    margin: 10px;
     
 }
+.div2 {
+    display: inline-block;
+    background-color: yellow;
+    width: 623px;
+    height: 300px;
+    
 
-
+}
 .estl{
     width: 295px;
     height: 25px;
@@ -241,20 +318,15 @@ h1 {
 .grid5 {
     font-size: 15px;
     height: 80px;
-    width: 100%;
-    background-color: #151c5c;
+    width: 202%;
+    background-color: #6a6f99;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.foto1 {
-    margin: 20px;
-    height: 350px;
-    width: 600px;
-    border-radius: 10px;
-}
+
 @keyframes backgroundTransition {
 0% {
     background-position: 0% 80%;
@@ -305,7 +377,7 @@ h1 {
 }
 .checkbox .trace {
     width: 35px;/*Tamanho dos traços*/
-    height: 1px;
+    height: 2px;
     background-color: white;
     position: absolute;
     border-radius: 1px;
@@ -403,51 +475,79 @@ h1 {
 
 form {
     display: grid;
-    max-width: 600px;
+    max-width: 580px;
     grid-template-columns: 1fr 1fr;
-    margin-top: 1px;
     gap: 4px;
+   margin-left: 30px;
 }
 
 .kk{
+    
+    font-size: 20px;
+    width: 240px;
+    color: black;
     display: flex;
     flex-direction: column;
-    margin-top: auto;
     border-bottom: 0px;
+    margin-top: 30px;
+    
     
 }
+
 form div:nth-child(3) {
     grid-column: 1/-1;
+    
 }
+.innertext {
+    width: 280px;
+    height: 38px;
+}
+.innertexte {
+    width: 280px;
+    height: 38px;
 
+
+}
 input {
 
-    border-radius: 4px;
     width:100px;
-    border: none;
-}
-.tt{
-
-    width: 300px;
     
 
 }
+
 textarea {
-    width: 295px;
-    height: 150px;
-    border-radius: 6px;
+    width: 575px;
+    height: 210px;
+    
+
 }
 button {
+    width: 85px;
     display: flex;
-    padding:1px;
     border: none;
     border-radius:  2px;
     font-size: 18px;
-    color: red;
-    background-color: #151c5c;
-    align-items:center;
+    color: black;
+    background-color: white;
+    align-items: center;
+    padding: 8px;
+    margin: 10px;
+
     
     
 }
-
+.rodape {
+    background-color: #061386;
+    width: 100%px;
+    height: 80px;
+    
+}
+.fim{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    
+}
 
