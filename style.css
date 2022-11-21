@@ -11,7 +11,7 @@ body {
 .logo {
     display: flex;
     align-items: flex-start;
-    width: 150px;
+    width: 10%;
     height: 80px;
 } 
 
@@ -339,7 +339,7 @@ body {
 }
 
 .grid6 {
-   background-color: #73b6cc;
+   background-color: #aed1dd;
 }
 .redesociais {
     width: 40px;
@@ -364,7 +364,7 @@ body {
 .div2 {
     
     display: inline-block;
-    width: 623px;
+    width: 40%;
     height: 300px;
    
 
@@ -373,7 +373,7 @@ body {
     text-decoration: none;
 }
 .estl{
-    width: 295px;
+    width: 40%;
     height: 25px;
 }
 .innertex {
