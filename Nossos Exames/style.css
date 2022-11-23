@@ -14,10 +14,14 @@ div {
    
 }
 #container-2 {
-   margin: 30pxpx;
+   margin: 30px;
 }
 li{
     color: #0c3b47;
     font-size: 30px;
+}
+.tomo {
+    width: 350px;
+    height: 300px;
 }
 
