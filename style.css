@@ -68,6 +68,11 @@ body {
     width: 320px;
     padding-left: 20px;
 }
+@media (max-width: 500px){
+    .search-box:hover {
+        width: 250px;
+    }
+}
 .search-box:hover> .search-btn{
     background: #2c59ac;
 }
@@ -92,6 +97,7 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
+    padding: 15px;
 
 }
 .header-wrapper {
@@ -163,8 +169,14 @@ body {
 
 @media screen and (max-width:769px) {
 
-    .titulo, .paragrafo-1, .imagem-1{
+    .titulo, .paragrafo-1,.txt5{
         width: 100%;
+    }
+}
+@media(max-width:1024px) {
+    .foto4,.imagem-1,.imagemfisio,.video {
+        width: auto;
+        height: auto;
     }
 }
 
@@ -234,13 +246,14 @@ body {
 .imagemfisio {
     display: flex;
     width: 90%;
-    height: 257px;
+    height: 275px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 13px;
     box-shadow: 0px 3px 0px;
 }
+
 .video {
     display: flex;
     width: 90%;
@@ -322,12 +335,19 @@ body {
     margin-left: 20px;
 }
 
-@media (min-width: 450px) {
-    .foto4, .{
-     width: 220px;
-     height: 210px;
-     margin: 1px;
-}
+@media (min-width: 500px) {
+      .foto4,.imagem-1,.imagemfisio,.video {
+        width: 430px;
+        height: 270px;
+        
+      }
+    }
+    
+@media (max-width:769px) {
+    .foto4, .imagem-1, .imagemfisio,.video{
+        width: 240px;
+        height: 180px;
+    }
 }
 
 #divinterna6 {
@@ -336,7 +356,7 @@ body {
     height: 310px;
 }
 #divexterna6 {
-    width: 50%;
+    width: 40%;
     max-width: 1329px;
     height: 310px;
 }
@@ -347,19 +367,19 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: auto;
+
+    
 }
 .txt6 {
 
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     max-width: 1329px;
     font-size: 1.4em;
     margin-left: 40px;
     color: black;
+    height: 200px;
    
 }
 
@@ -394,22 +414,8 @@ body {
     grid-template-columns: 1fr 2fr;
     background-color: #a9dce9;
 
-}/*
-.contatos {
-  
-    font-size: 18px;
-    width: 100%;
-    max-width: 1329px;
-    height: 50px;
+}
 
-}/*
-.faleconosco {
-    width: 100%;
-    max-width: 1329px;
-    max-width: 1329px;
-    color:black;
-    margin-left: 30px;
-}*/
 .telefones {
     width: 150px;
     height: 120px;
